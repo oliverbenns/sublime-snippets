@@ -4,8 +4,8 @@ Custom snippets for Sublime Text 3
 
 ### Install
 
-- Default Sublime install: `sh install`
-- Custom Sublime install: `sh install [path/to/sublime/user/dir]`
+- Default Sublime install: `sh install.sh`
+- Custom Sublime install: `sh install.sh [path/to/sublime/user/dir]`
 
 ### Console Log
 
