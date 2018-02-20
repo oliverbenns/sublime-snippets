@@ -1,0 +1,8 @@
+<snippet>
+  <description>Console Log</description>
+  <tabTrigger>log</tabTrigger>
+  <scope>text.html,source.js</scope>
+  <content><![CDATA[
+console.log('$1', $1);
+]]></content>
+</snippet>
