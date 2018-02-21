@@ -1,0 +1,16 @@
+<snippet>
+  <description>React Pure Component</description>
+  <scope>source.js</scope>
+  <tabTrigger>rpc</tabTrigger>
+  <content><![CDATA[
+import React from 'react';
+
+const ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} = ({ $2 }) => (
+  <${3:div}>
+    <h1>${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} Component</h1>
+  </${3:div}>
+);
+
+export default ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}};
+]]></content>
+</snippet>

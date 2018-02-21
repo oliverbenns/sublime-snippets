@@ -1,0 +1,26 @@
+<snippet>
+  <description>React Component</description>
+  <scope>source.js</scope>
+  <tabTrigger>rc</tabTrigger>
+  <content><![CDATA[
+import React, { Component } from 'react';
+
+class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    const { $2 } = this.props;
+
+    return (
+      <${3:div}>
+        <h1>${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} Component</h1>
+      </${3:div}>
+    );
+  }
+}
+
+export default ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}};
+]]></content>
+</snippet>

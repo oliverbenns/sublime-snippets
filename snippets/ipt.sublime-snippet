@@ -1,0 +1,8 @@
+<snippet>
+  <description>Import</description>
+  <scope>source.js</scope>
+  <tabTrigger>ipt</tabTrigger>
+  <content><![CDATA[
+import $1 from '$2';
+]]></content>
+</snippet>

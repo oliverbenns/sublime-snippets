@@ -1,7 +1,7 @@
 <snippet>
   <description>Console Log</description>
-  <tabTrigger>log</tabTrigger>
   <scope>text.html,source.js</scope>
+  <tabTrigger>log</tabTrigger>
   <content><![CDATA[
 console.log('$1', $1);
 ]]></content>

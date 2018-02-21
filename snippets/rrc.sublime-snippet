@@ -1,0 +1,40 @@
+<snippet>
+  <description>Connected React + Redux Component</description>
+  <scope>source.js</scope>
+  <tabTrigger>rrc</tabTrigger>
+  <content><![CDATA[
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+
+class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    const { $2 } = this.props;
+
+    return (
+      <${3:div}>
+        <h1>${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} Component</h1>
+      </${3:div}>
+    );
+  }
+}
+
+const mapStateToProps = state => ({
+  ${4}
+});
+
+const mapDispatchToProps = dispatch => ({
+  ${5}
+});
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}});
+]]></content>
+</snippet>
+
+
