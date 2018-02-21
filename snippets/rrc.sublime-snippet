@@ -6,13 +6,14 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends Component {
+export class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends Component {
   constructor(props) {
     super(props);
   }
 
   render() {
     const { $2 } = this.props;
+    console.log('Props: ', $2);
 
     return (
       <${3:div}>
@@ -22,18 +23,9 @@ class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends Component {
   }
 }
 
-const mapStateToProps = state => ({
-  ${4}
-});
+const mapStateToProps = state => ({${4}});
 
-const mapDispatchToProps = dispatch => ({
-  ${5}
-});
-
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}});
+export default connect(mapStateToProps)(${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}});
 ]]></content>
 </snippet>
 

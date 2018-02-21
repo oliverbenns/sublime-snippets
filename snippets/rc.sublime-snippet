@@ -12,6 +12,7 @@ class ${1:${TM_FILENAME/(.?\w*)(?:\.\w+)*$/$1/g}} extends Component {
 
   render() {
     const { $2 } = this.props;
+    console.log('Props: ', $2);
 
     return (
       <${3:div}>
