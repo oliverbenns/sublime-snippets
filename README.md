@@ -17,6 +17,12 @@ These are personal snippets, so are not installed though package control. Instea
 
 **Description:** `console.log` with 2 outputs, the var name as a string, and the var itself.
 
+### Todo
+
+**Trigger:** `td`
+
+**Description:** Js Comment pre-pended with `@TODO: `.
+
 ### Import
 
 **Trigger:** `ipt`

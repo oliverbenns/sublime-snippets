@@ -1,0 +1,8 @@
+<snippet>
+  <description>Todo</description>
+  <scope>source.js</scope>
+  <tabTrigger>td</tabTrigger>
+  <content><![CDATA[
+// @TODO: $1
+]]></content>
+</snippet>
