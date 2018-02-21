@@ -4,6 +4,8 @@ Custom snippets for Sublime Text 3
 
 ### Install
 
+These are personal snippets, so are not installed though package control. Instead, install manually:
+
 - Default Sublime install: `sh install.sh`
 - Custom Sublime install: `sh install.sh [path/to/sublime/user/dir]`
 
