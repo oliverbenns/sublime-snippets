@@ -1,6 +1,6 @@
 <snippet>
   <description>React Pure Component</description>
-  <scope>source.js</scope>
+  <scope>source.js,source.jsx,source.ts,source.tsx</scope>
   <tabTrigger>rpc</tabTrigger>
   <content><![CDATA[
 import React from 'react';

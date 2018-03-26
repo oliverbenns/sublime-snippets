@@ -1,6 +1,6 @@
 <snippet>
   <description>Console Log</description>
-  <scope>text.html,source.js</scope>
+  <scope>text.html,source.js,source.jsx,source.ts,source.tsx</scope>
   <tabTrigger>log</tabTrigger>
   <content><![CDATA[
 console.log('$1', $1);

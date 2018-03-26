@@ -1,6 +1,6 @@
 <snippet>
   <description>JSX Comment</description>
-  <scope>source.js</scope>
+  <scope>source.js,source.jsx,source.ts,source.tsx</scope>
   <tabTrigger>jc</tabTrigger>
   <content><![CDATA[
 {/* ${1:JSX Comment} */}

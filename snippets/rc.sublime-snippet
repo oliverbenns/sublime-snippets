@@ -1,6 +1,6 @@
 <snippet>
   <description>React Component</description>
-  <scope>source.js</scope>
+  <scope>source.js,source.jsx,source.ts,source.tsx</scope>
   <tabTrigger>rc</tabTrigger>
   <content><![CDATA[
 import React, { Component } from 'react';
