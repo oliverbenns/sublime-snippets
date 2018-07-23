@@ -1,0 +1,9 @@
+<snippet>
+  <description>Puts</description>
+  <scope>text.html,source.ruby</scope>
+  <tabTrigger>pts</tabTrigger>
+  <content><![CDATA[
+puts "$1 ===================="
+puts $1
+]]></content>
+</snippet>
