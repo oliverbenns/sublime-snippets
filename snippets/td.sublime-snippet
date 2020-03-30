@@ -1,6 +1,6 @@
 <snippet>
   <description>Todo</description>
-  <scope>source.js,source.jsx,source.ts,source.tsx</scope>
+  <scope>source.js,source.jsx,source.ts,source.tsx,source.go</scope>
   <tabTrigger>td</tabTrigger>
   <content><![CDATA[
 // @TODO: $1

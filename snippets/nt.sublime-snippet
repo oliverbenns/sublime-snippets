@@ -1,6 +1,6 @@
 <snippet>
   <description>Note</description>
-  <scope>source.js,source.jsx,source.ts,source.tsx</scope>
+  <scope>source.js,source.jsx,source.ts,source.tsx,source.go</scope>
   <tabTrigger>nt</tabTrigger>
   <content><![CDATA[
 // @NOTE: $1
