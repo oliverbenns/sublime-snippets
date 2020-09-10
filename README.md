@@ -55,10 +55,3 @@ These are personal snippets, so are not installed though package control. Instea
 
 **Description:** React Component that has all of `rc`, plus is decorated with the `react-redux`'s `connect` decorator.
 
-### Ruby
-
-#### Puts
-
-**Trigger:** `pts`
-
-**Description:** `puts` with 2 outputs, the var name as a string, postpended with repeating `=`s, and the var itself on the next line.
